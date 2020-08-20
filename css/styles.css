@@ -1,0 +1,223 @@
+/*Typography*/
+
+.intro{
+
+    font-size: 6rem; 
+    font-family: 'Sacramento', cursive; 
+    color: rgb(180, 180, 180);
+    padding:100px 50px 0 50px;
+    
+    
+}
+
+
+
+body{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.bio{
+   
+    font-size: 1.5rem;
+    
+
+}
+
+
+
+/*Images*/ 
+.profile-pic{
+    
+    width: 75%;
+}
+
+/*Content*/
+.colored-section {
+    background-color: #141414;
+    color: rgb(94, 94, 94);
+  }
+  
+  
+.row{
+    margin-top:25px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar {
+    padding: 0 0 ;
+  }
+  
+.logo{
+    padding-left: 50px;
+}
+  
+.nav-item {
+    padding: 0 40px;
+}
+
+#about {
+    position: relative;
+  }
+  
+  .skill {
+    font-size: 1.5rem;
+  }
+  
+  .skill-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: #080808;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #5e5e5e;
+  }
+  
+  .heading{
+    text-decoration: underline;
+    padding-top: 5rem;
+}
+
+.brief-intro{
+    padding: 4rem 15rem;
+    text-align: justify;
+
+}
+
+.brief-intro p{
+    font-size: 1.1rem;
+}
+
+
+ .contact-box{
+     padding:5rem 30rem 2rem 30rem;
+ }
+
+ .clink{
+     padding: 5rem 2rem;
+     font-size: 3rem;
+ }
+
+ .interest-img{
+     width: 30%;
+ }
+
+ .interest-box{
+    padding: 4.5%;
+ }
+
+
+   
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .intro{
+        font-size: 4rem;
+        padding-top: 0px;
+    }
+
+    .intro-line{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .logo{
+        padding-left: 0px;
+    }
+
+    .profile-pic{
+        border-radius: 50%;
+                
+    }
+    
+    .profile{
+        text-align: center;
+    }
+
+    .bio{
+        font-size: 0.9rem;
+    }
+
+    .brief-intro p{
+        font-size: 0.8rem;
+    }
+    .brief-intro{
+        padding: 1rem 1rem;
+    
+    }
+    
+    .contact-box{
+        padding: 2rem 4rem;
+
+    }
+    .contact-box p{
+        font-size: 0.8rem;
+    }
+    .clink{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+   
+
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .logo{
+        padding-left: 0px;
+    }
+
+    .title{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .profile-pic{
+        border-radius: 50%;
+                
+    }
+    
+    .profile{
+        text-align: center;
+    }
+
+    .bio{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        padding-top: 0px;
+    }
+
+    .contact-box{
+        padding: 3rem 5rem;
+    }
+    .brief-intro p{
+        font-size: 1rem;
+    }
+    .brief-intro{
+        padding: 2rem 5rem;
+    
+    }
+    .clink{
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+    }
+   
+  }
