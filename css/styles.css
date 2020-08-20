@@ -37,7 +37,11 @@ body{
     background-color: #141414;
     color: rgb(94, 94, 94);
   }
-  
+
+.grey-section{
+    background-color: rgb(80, 80, 80);
+    color: rgb(0, 0, 0);
+}
   
 .row{
     margin-top:25px;
