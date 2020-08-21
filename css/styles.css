@@ -14,7 +14,6 @@
 
 body{
     font-family:'Montserrat', sans-serif;
-    text-align: center;
 }
 
 .bio{
@@ -62,16 +61,29 @@ body{
   }
   
 .logo{
-    padding-left: 50px;
+    padding:40px;
+    
 }
   
 .nav-item {
     padding: 0 40px;
 }
 
-#about {
+#About {
     position: relative;
+    text-align: center;
   }
+
+#Interests
+{
+    position: relative;
+    text-align: center; 
+} 
+
+#Contact{
+    position: relative;
+    text-align: center;
+}
   
   .skill {
     font-size: 1.5rem;
@@ -123,10 +135,18 @@ body{
     padding: 4.5%;
  }
 
+ 
+
+ 
 
    
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+    
+    .logo{
+        padding: 20px;
+    }
+    
     .intro{
         font-size: 4rem;
         padding-top: 0px;
@@ -141,9 +161,7 @@ body{
         padding-top: 40px;
     }
 
-    .logo{
-        padding-left: 0px;
-    }
+  
 
     .profile-pic{
         border-radius: 50%;
@@ -182,10 +200,8 @@ body{
   }
 
   /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .logo{
-        padding-left: 0px;
-    }
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+    
 
     .title{
         text-align: center;
