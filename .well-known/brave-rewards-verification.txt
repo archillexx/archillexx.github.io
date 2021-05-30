@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: archillexx.github.io
+Token: d5a73f02f348fe8ca780483d2eb4068cf53960b78d5356ba262dd7f396cc7de2
